@@ -36,7 +36,8 @@ return {
           -- "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
-          -- "python",
+          "c",
+          "cpp",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
@@ -81,5 +82,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    -- Use 8 column tabs for indentation in C
+    vim.cmd "au FileType c setl ts=8 sts=8 sw=8 noet"
+    vim.cmd "au FileType cpp setl ts=8 sts=8 sw=8 noet"
   end,
 }
