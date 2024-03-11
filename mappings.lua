@@ -39,6 +39,6 @@ return {
     ["<leader>gd"] = { "<cmd>DiffviewOpen<cr>", desc = "Open Diff View" },
 
     -- Toggle lsp lines
-    ["<leader>uk"] = { require("lsp_lines").toggle, desc = "Toggle LSP Lines" },
+    ["<leader>uv"] = { require("lsp_lines").toggle, desc = "Toggle LSP Lines" },
   },
 }

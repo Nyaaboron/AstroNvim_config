@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.html-css" },
 
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },

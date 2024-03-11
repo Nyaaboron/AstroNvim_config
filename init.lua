@@ -22,7 +22,7 @@ return {
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
-    virtual_text = true,
+    virtual_text = false,
     underline = true,
   },
 
@@ -38,6 +38,7 @@ return {
         ignore_filetypes = { -- disable format on save for specified filetypes
           "c",
           "cpp",
+          "javascript",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
